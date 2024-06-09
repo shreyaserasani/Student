@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins",sans-serif;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: #808080;
+}
+.container {
+  width: 370px;
+  padding: 30px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  box-shadow: -1px 0px 25px 0px #21719369;
+  background: #8FBC8F;
+}
+
+.container h3{
+	font-size: 32px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0 5px 0;
+  display: inline-block;
+  border: none;
+  background: #d3d3d3;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #f1f1f1;
+  outline: none;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #006400;
+  color: yellow;
+  padding: 16px 20px;
+  margin: 8px 0;
+  margin-top: 15px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Set a style for the submit/login button */
+.loginbtn {
+  background-color: #006400;
+  color: yellow;
+  padding: 16px 20px;
+  margin: 8px 0;
+  margin-top: 15px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.loginbtn:hover {
+  opacity:1;
+}
